@@ -14,9 +14,7 @@ class Question {
   static All(){
     return this._All
   }
-   static Find(){
-  return this.All.[i-1]
-  }   // return this.All().filter(function(user){
+   // return this.All().filter(function(user){
     //  return user.email === email
 }
 Question._All = []
