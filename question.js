@@ -17,6 +17,7 @@ class Question {
    static Find()
   return this.All().filter(function(question){
      return Question.question[i] === question[i+1]
-     //
+     // return this.All().filter(function(user){
+    //  return user.email === email
 }
 Question._All = []
