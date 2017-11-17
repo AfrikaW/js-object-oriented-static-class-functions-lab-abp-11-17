@@ -2,8 +2,8 @@
 
 class Question {
 
-  constructor(question){
-    this.question = question
+  constructor(content){
+    this.content = content
     this.save()
   }
 
@@ -15,8 +15,7 @@ class Question {
     return this._All
   }
    static Find()
-  return this.All().filter(function(question){
-     return Question.question[i] === question[i+1]
+  return this.All().[i-1] 
      // return this.All().filter(function(user){
     //  return user.email === email
 }
